@@ -86,8 +86,8 @@ $(function() {
 	});
 
 
-	// function onResize() {
-	// 	$('.carousel-services-content').equalHeights();
-	// } onResize();
-	// window.onresize = function() {onResize()};
+	function onResize() {
+		$('.carousel-services-content').equalHeights();
+	} onResize();
+	window.onresize = function() {onResize()};
 });
